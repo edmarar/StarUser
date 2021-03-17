@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="view/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+        <script src="view/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>  
+        <link rel="stylesheet" type="text/css" href="view/js/alertify/css/alertify.min.css" />
+        <script src="view/js/alertify/alertify.min.js"></script>     
+    </head>
+    <body style='background-color: #eadaa2;'>
+        <div class='container'>
+            <table class="table table-hover">
+                <thead style='background-color:#FFF;'>
+                    <th style='color:#251101'>Usuário</th>
+                    <th style='color:#251101'>Email</th>
+                </thead>
+                <?php
+                    foreach($lista as $item){
+                        echo "<tbody>";
+                        echo "<td style='color: #3c0000;'>{$item->getName()}</td>";
+                        echo "<td style='color: #3c0000;'>{$item->getEmail()}</td>";
+                    }
+                ?>
+            </table>
+        </div>
+    </body>
+</html> 

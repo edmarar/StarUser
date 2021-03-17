@@ -1,0 +1,26 @@
+.font1 {
+    font-family: "Verdana", "Arial", sans-serif;
+    color: #3c0000;
+
+}
+
+.font2 {
+    
+    font-family: "Monaco", "Courier New", monospace;
+    color: #3c0000;
+    font-weight: bold;
+}
+
+.font3 {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #FFF;
+    font-weight: 600;   
+}
+
+.form {
+    margin: auto;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
